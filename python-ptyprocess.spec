@@ -8,12 +8,13 @@
 Summary:	Run a subprocess in a pseudo terminal
 Summary(pl.UTF-8):	Uruchamianie podprocesu w pseudoterminalu
 Name:		python-ptyprocess
-Version:	0.5.1
-Release:	4
+Version:	0.6.0
+Release:	1
 License:	ISC
 Group:		Libraries/Python
-Source0:	https://pypi.python.org/packages/source/p/ptyprocess/ptyprocess-%{version}.tar.gz
-# Source0-md5:	94e537122914cc9ec9c1eadcd36e73a1
+#Source0Download: https://pypi.org/simple/ptyprocess/
+Source0:	https://files.pythonhosted.org/packages/source/p/ptyprocess/ptyprocess-%{version}.tar.gz
+# Source0-md5:	37402d69f3b50913d4d483587bffad8f
 URL:		https://github.com/pexpect/ptyprocess
 %if %{with python2}
 BuildRequires:	python-modules >= 1:2.7
